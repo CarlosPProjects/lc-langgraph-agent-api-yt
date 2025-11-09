@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "default": "./src/agent.ts:default"
+  },
+  "env": ".env"
+}

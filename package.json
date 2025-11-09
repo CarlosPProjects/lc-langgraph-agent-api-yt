@@ -1,0 +1,24 @@
+{
+  "name": "lc-langgraph-agent-api-yt",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "std": "bunx @langchain/langgraph-cli dev"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.0.3",
+    "@langchain/langgraph": "^1.0.1",
+    "@langchain/langgraph-cli": "^1.0.3",
+    "@langchain/openai": "^1.0.0",
+    "axios": "^1.13.2",
+    "langchain": "^1.0.3",
+    "zod": "^4.1.12"
+  }
+}
